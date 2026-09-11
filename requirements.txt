@@ -1,0 +1,25 @@
+# Core model-development environment used by the reported notebooks.
+# The standard fine-tuning notebook recorded transformers 4.57.0, while the
+# reported LoRA notebook recorded transformers 4.56.2; the range below covers
+# both archived environments.
+
+numpy==2.1.3
+pandas==2.2.3
+torch==2.8.0
+transformers>=4.56.2,<4.58
+datasets==4.1.1
+evaluate==0.4.6
+accelerate==1.10.1
+peft==0.17.1
+scikit-learn==1.6.1
+tqdm==4.67.1
+
+# Temporal aggregation, plotting, and reported YAKE keyword extraction.
+matplotlib
+seaborn
+yake==0.6.0
+
+# Optional only if legacy/exploratory KeyBERT cells are retained.
+# KeyBERT was not used for the keyword results reported in the manuscript.
+# keybert==0.9.0
+# sentence-transformers==5.1.1

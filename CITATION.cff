@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the archived software record."
+title: "Emotion trajectories in online discourse during drinking water contamination crises: analysis code"
+type: software
+authors:
+  - family-names: "Kumar"
+    given-names: "Vishal"
+  - family-names: "Hopfgartner"
+    given-names: "Frank"
+  - family-names: "Oussalah"
+    given-names: "Mourad"
+version: "1.0.0"
+date-released: "2026-09-11"
+license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18480875"
+    description: "Archived code and analysis notebooks"
+keywords:
+  - drinking water contamination
+  - social sensing
+  - emotion classification
+  - DistilRoBERTa
+  - LoRA
+  - crisis communication
+  - online discourse
+  - YAKE
